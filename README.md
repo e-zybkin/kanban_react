@@ -13,8 +13,8 @@
 - поиск карточек по названию
 - назначение ролей среди поставленных задач
 
-За бэкенд данной работы отвечает C#-разработчик [Антон] (https://github.com/exp1azy)  
+За бэкенд данной работы отвечает C#-разработчик [Антон](https://github.com/exp1azy)  
 
 Для оформления визуальной части были взяты следующие макеты:
-* [Simple Kanban Board] (https://www.figma.com/community/file/892825410260715717)
-* [Kanban Board Template] (https://www.figma.com/community/file/1003927294234117670)
+* [Simple Kanban Board](https://www.figma.com/community/file/892825410260715717)
+* [Kanban Board Template](https://www.figma.com/community/file/1003927294234117670)
