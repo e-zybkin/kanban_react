@@ -1,0 +1,9 @@
+.board-card {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.board-card__name {
+  margin: 0;
+}

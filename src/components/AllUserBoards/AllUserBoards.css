@@ -1,0 +1,23 @@
+.boards-container {
+  margin: 0 auto;
+  max-width: 500px;
+  min-height: 300px;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg,#6a00ff, #c68de4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.boards-container__title {
+  margin: 0 0 20px 0;
+}
+
+.boards-container__box {
+  max-width: 400px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

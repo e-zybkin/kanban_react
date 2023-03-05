@@ -11,12 +11,11 @@ function App() {
     <div className='page'>
 			<div className='wrapper'>
 				<Routes>
-					
 					<Route
 						path='/'
 						element={
 							<Main
-							
+
 							/>
 						}
 					/>
@@ -25,7 +24,7 @@ function App() {
 						path='/board'
 						element={
 							<Board
-							
+
 							/>
 						}
 					/>
@@ -34,7 +33,7 @@ function App() {
 						path='/signin'
 						element={
 							<Login
-							
+
 							/>
 						}
 					/>
@@ -43,7 +42,7 @@ function App() {
 						path='/signup'
 						element={
 							<Register
-							
+
 							/>
 						}
 					/>
