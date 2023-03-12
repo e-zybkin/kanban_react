@@ -8,7 +8,9 @@ function Board() {
     <>
       <Header />
       <main>
-        
+        <div>
+
+        </div>
       </main>
     </>
   )

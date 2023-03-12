@@ -4,8 +4,7 @@
 .page{
   min-width: 320px;
   min-height: 100vh;
-  /*background-color: #FFFFFF;*/
-  background-image: url(../../images/rm222-mind-22.jpg);
+  background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Nunito, Arial, sans-serif;
@@ -26,4 +25,24 @@
 
 .buttons:hover {
   opacity: 0.6;
+}
+
+.shadow-buttons {
+  transition: box-shadow 0.25s linear;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.shadow-buttons:hover {
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+
+.scale-buttons {
+  transition: transform 0.15s linear;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.scale-buttons:hover {
+  transform: scale(1.2);
 }

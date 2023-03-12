@@ -16,7 +16,10 @@ function AllUserBoards() {
             />
           ))}
         </div>
-
+        <button
+          type="button"
+          className="boards-container__button shadow-buttons"
+        ></button>
       </div>
     </>
   )
