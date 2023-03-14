@@ -10,7 +10,13 @@ function Header() {
       case '/':
         return(
           <>
-            <h1 className="header__logo header__content_main">KANBAN BOARD</h1>
+            <div className="header__box">
+              <h1 className="header__logo header__content_main">KANBAN BOARD</h1>
+              <button
+                className="header__logout-button scale-buttons"
+                type="button"
+              ></button>
+            </div>
             <p className="header__text header__content_main">
               Добрый день, Евгений!
             </p>
@@ -20,29 +26,30 @@ function Header() {
       case '/board':
         return(
           <>
-            <h1 className="header__logo header__content_other">Design weekly</h1>
+            <div className="header__box">
+              <h1 className="header__logo header__content_main">DESIGN WEEKLY</h1>
+              <button
+                className="header__logout-button scale-buttons"
+                type="button"
+              ></button>
+            </div>
             <p className="header__text header__content_other">
               A board to keep track of design progress.
             </p>
           </>
         );
 
-      case 'sign-in':
+      case '/signin':
         return(
-          <></>
+          <h1 className="header__logo header__content_main">Рады снова вас видеть!</h1>
         );
 
-      case 'sign-up':
+      case '/signup':
         return(
-          <></>
+          <h1 className="header__logo header__content_main">Приветствуем нового пользователя!</h1>
         );
 
-      default:
-        return(
-          <>
-            <h1 className="header__logo">KANBAN BOARD</h1>
-          </>
-        );
+      default: return('');
     }
   }
 
